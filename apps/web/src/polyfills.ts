@@ -5,4 +5,4 @@
  */
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
-import '@ungap/custom-elements';
+// import '@ungap/custom-elements';

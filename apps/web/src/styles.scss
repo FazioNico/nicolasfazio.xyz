@@ -1,1 +1,96 @@
 /* You can add global styles to this file, and also import other style files */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: currentColor;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
+}
+svg {
+  display: block;
+  vertical-align: middle;
+}
+
+svg {
+  shape-rendering: auto;
+  text-rendering: optimizeLegibility;
+}
+html, body {
+  height: 100vh;
+  display: block;
+  position: relative;
+}
+body {
+  background: #58BA57;
+  color: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-size: 18px;
+  scroll-behavior: smooth;
+
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+main {
+  padding: 5em;
+  
+  h1 {
+      font-size: 2.3em;
+      line-height: 3rem;
+      margin: 0;
+      padding-bottom: 0;
+      text-transform: uppercase;
+      font-weight: 400;
+      cursor: default;
+  
+      span {
+        display: block;
+        font-size: 2.7em;
+        line-height: 6.8rem;
+        margin-bottom: 1rem;
+      }
+  }
+  p {
+    margin: 0.5rem 0;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  h1 {
+      display: block;
+      font-size: 1.9em;
+      line-height: 2.5rem;
+      margin-bottom: 1rem;
+
+      span {
+        display: block;
+        font-size: 2.1em;
+        line-height: 4.5rem;
+        margin-bottom: 1rem;
+      }
+  }
+}
